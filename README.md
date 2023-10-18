@@ -1,6 +1,6 @@
 # Demand Forecasting for E-Commerce
 
-This repository contains implementations of various demand forecasting models that can be used for an E-Commerce environment. The models used are ARIMA time series forecasting and Regression using Digital Marketing KPIS. The implementation is done in R. 
+This repository comprises a collection of demand forecasting models suitable for E-Commerce scenarios. The models applied include ARIMA time series forecasting and Regression, utilizing Digital Marketing Key Performance Indicators (KPIs) as inputs. The implementations are coded in R
 
 ## ARIMA Time Series Forecasting 
 The file for ARIMA time series forecasting is 'ProductA_timeseries.R'. The implementation uses the following packages:
@@ -14,7 +14,7 @@ The file for ARIMA time series forecasting is 'ProductA_timeseries.R'. The imple
 - **'Metrics'** for calculating evaluation metrics such as Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE) etc. 
 
 ###### Dataset
-The sales data of Product A is stored in the file ProductA.csv. The dataset contains the sales quantity of Product A. The data can be extracted from the Google Analytics dashboard of the corresponding E-Commerce website. 
+The sales data for Product A is housed in the file named ProductA.csv. This dataset encompasses the quantity of Product A sales, sourced from the relevant E-Commerce website's Google Analytics dashboard. 
 
 ###### Data Preprocessing
 - The dataset is split into training and testing sets with a ratio of 80:20.
